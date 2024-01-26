@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      @@include("../partials/head/meta.html") @@include("../partials/head/head-links.html")
+
+      <title>Changelog - Responsive Website Template | Block</title>
+   </head>
+
+   <body>
+      <!--Main wrapper start-->
+      <main class="docs-main-wrapper">
+         @@include("../partials/docs-navbar.html")
+         <!-- left sidebar -->
+         @@include("../partials/docs-sidenav.html")
+         <!--Wrapper start-->
+         <div class="docs-wrapper">
+            <div class="docs-content">
+               <!--Content start-->
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-10 col-12">
+                        <div class="row">
+                           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                              <div class="mb-5">
+                                 <h1 class="mb-2">Changelog</h1>
+                                 <p>Stay up to date with all of the latest additions and improvements we've made to Block UI.</p>
+                              </div>
+                              <div class="docs-example row mt-7">
+                                 <div class="col-lg-4 col-12">
+                                    <div id="initial">
+                                       <h4 class="mb-3 fwsemi--bold">
+                                          <code>v1.0.0</code>
+                                          - Oct 23, 2023
+                                       </h4>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-8 col-12">
+                                    <div>
+                                       <h3 class="mb-2">Inital Release Block</h3>
+                                       <p>Block is a fully responsive and yet modern premium bootstrap 5 template.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--Content end-->
+            </div>
+            <div class="visually-hidden">@@include("../partials/docs-footer.html")</div>
+         </div>
+         <!--Wrapper end-->
+      </main>
+      <!--Main wrapper end-->
+      <!-- Scripts -->
+
+      @@include("../partials/scripts.html")
+
+      <script src="@@webRoot/node_modules/prismjs/prism.js"></script>
+      <script src="@@webRoot/node_modules/prismjs/components/prism-scss.min.js"></script>
+      <script src="@@webRoot/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+      <script src="@@webRoot/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+      <script src="@@webRoot/assets/js/vendors/sidebar-menu.js"></script>
+   </body>
+</html>
