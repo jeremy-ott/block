@@ -5,3 +5,58 @@
 // Example of a variable override to change Block primary color
 // Remove the "//" to comment it in and see it in action!
 // $primary: #000;
+
+
+//Color Overrides
+
+// scss-docs-start color-variables
+$blue: #143C57 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #db1436 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #73B680 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+$white: #ffffff !default;
+// scss-docs-end color-variables
+
+$primary-green: #73B680;
+$dark-green: #395A3F;
+$light-green: #D5E9D9;
+$primary-blue: #143C57;
+
+$primary-text: #2f2f31;
+$secondary-text: #959597;
+
+$primary-background: #ededed;
+$secondary-background: #f8f8f8;
+
+$orange: #ff5c23;
+
+//Border Radius Overrides
+
+// scss-docs-start border-radius-variables
+$border-radius: 0.25rem !default;
+$border-radius-sm: 0.25rem !default;
+$border-radius-lg: 0.25rem !default;
+$border-radius-xl: .75rem !default;
+$border-radius-xxl: 1rem !default;
+$border-radius-pill: 50rem !default;
+// scss-docs-end border-radius-variables
+// fusv-disable
+$border-radius-2xl: $border-radius-xxl !default; // Deprecated in v5.3.0
+// fusv-enable
+
+// scss-docs-start theme-color-variables
+$primary: $blue !default;
+$secondary: $gray-200 !default;
+$success: $primary-green !default;
+$info: $cyan !default;
+$warning: $orange;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+// scss-docs-end theme-color-variables
